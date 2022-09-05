@@ -10,8 +10,8 @@
 
 .middle{
     background-color: #0a2351;
-    padding: 30px;
-    min-height: 80%;
+    
+    min-height: 73.9%;
     
 }
 
@@ -44,6 +44,28 @@ a{
     text-decoration: none;
 }
 
+.profileImage{
+    width: 345px;
+    height: auto;
+    
+}
+
+.aboutContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding: 50px;
+    
+}
+
+.aboutMe{
+    width: 50%;
+    
+}
+
+
+
 img{
     width: 100%;
     height: auto;
@@ -68,7 +90,13 @@ body{
     color: lightblue;
     font-size: larger;
     font-weight: bold;
+    margin: 15px;
 
+}
+
+.featuredImage{
+    width: 160px;
+    height: auto;
 }
 
 

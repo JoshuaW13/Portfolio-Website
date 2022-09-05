@@ -11,17 +11,10 @@
 .middle{
     background-color: #0a2351;
     padding: 30px;
-    min-height: 50%;
-    
+    min-height: 80%;
     
 }
 
-.featured{
-    background-color:#1F305E ;
-    padding: 30px;
-    min-height: 30%;
-    
-}
 
 .lower{
     background-color: #0B0B45;
@@ -64,12 +57,7 @@ body{
     height: 100vh;
 }
 
-.aboutMe{
-    display: flex;
-    padding-top: 20px;
-    background-color: green;
-    height: 90%;
-}
+
 
 .text{
     color: lightblue;
@@ -83,8 +71,6 @@ body{
 
 }
 
-.pfp{
-    
-    background-color: red;
-}
+
+
 

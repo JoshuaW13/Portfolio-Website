@@ -34,9 +34,35 @@ p{
 }
 
 .codeEditor{
-    margin: 0px;
-    background-color: grey;
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgb(59, 59, 59); 
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 }
+
+.codeEditor.codeLine{
+    padding: 30px;
+}
+
+.codeMenu{
+    width: auto;
+    height: 20px;
+    background-color: gray;
+}
+
+.codeVariable{
+    margin-top: 20px;
+    color: white;
+}
+
+.codeOperator{
+    color: white;
+}
+
+.codeString{
+    color: rgb(240, 134, 14);
+}
+
 .Title{
     color: lightblue ;
     font-size: x-large;

@@ -13,7 +13,7 @@ p{
 }
 
 .middle{
-    background-color: #0a2351;
+    background-color: #f8f8ff;
     min-height: calc(100vh - 100px); 
     padding-top: 20px;
     margin: 0px;
@@ -22,7 +22,7 @@ p{
 
 
 .lower{
-    background-color: #0B0B45;
+    background-color: rgb(11, 11, 69);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -37,6 +37,8 @@ p{
     margin: 0 auto;
     padding: 30px;
     width: 80%;
+    border: solid rgb(196, 196, 196);
+    border-width: 1px;
     font-size: large;
     background-color: #303030; 
     font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
@@ -50,7 +52,7 @@ p{
     margin-right: -30px;
     width: auto;
     height: 25px;
-    background-color: lightgray;
+    background-color: rgb(196, 196, 196);
 }
 
 .codeCursor{
@@ -58,8 +60,9 @@ p{
     background-color: lightgray;
     margin-left: 10px;
     width: 10px;
-    height: 24px;
+    height: 22px;
     animation: blink 1s infinite;
+    margin-bottom: -5px;
     
 
 }
@@ -84,7 +87,7 @@ p{
 }
 
 .Title{
-    color: lightblue ;
+    color: rgb(173, 216, 230) ;
     font-size: x-large;
     font-weight: bold;
 }
@@ -101,30 +104,28 @@ a{
 }
 
 .profileImage{
-    width: 345px;
+    width: 200px;
     height: auto;
     
 }
 
 .aboutContent{
     margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 100%;
+    width: 80%;
 }
 
 .aboutMe{
     margin-top: 10px;
-    width: 90%;
+    width: 80%;
     
 }
-
-
-
-
 
 img{
     width: 100%;
@@ -135,25 +136,27 @@ img{
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     min-height: 100vh;
     
 }
 
-.about.text{
-    
 
-}
 
 
 
 .text{
-    color: lightblue;
+    color: #353839;
+    font-weight: 400;
     margin: 15px;
 }
 
+.aboutText{
+    color: #0B0B45;
+}
+
 .header{
-    color: lightblue;
+    color:#0B0B45;
     font-size: larger;
     font-weight: bold;
     margin: 15px;

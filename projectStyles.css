@@ -1,0 +1,89 @@
+.projectTitle{
+    margin-top: 20px;
+    color: #0B0B45;
+    text-align: center;
+}
+
+.underline{
+    background-color: #0B0B45;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 40px;
+    height: 7px;
+}
+
+.projectContainer{
+    background-color: #c4c3d0;
+    margin: 0 auto;
+    margin-top:  30px; ;
+    padding: 20px;
+    padding-top: 10px;
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.projectContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.projectText{
+    margin: 10px;
+    width: 300px;
+    color: #0B0B45;
+}
+
+.projectImage{
+    min-width: 200px;
+    flex-grow: 0.2;
+    height: auto;
+    margin-right: 20px;
+    height: auto;
+}
+
+.projectLinks{
+    margin-top: 10px;
+    display: flex;
+    flex: 1 1 0px;
+    justify-content: center;
+}
+
+.liveDemo{
+    background-color: #0B0B45;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.sourceCode{
+    background-color: #0B0B45;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.smallProjectImage{
+    display: inline-block;
+    width: 24px;
+    height: auto;
+}
+
+.projectSkills{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.projectSkill{
+    margin: 5px;
+    border-radius: 5px;
+    border: solid #0B0B45;
+    flex-grow: 1;
+    max-width: 100px;
+    color:#0B0B45;
+    text-align: center;
+    background-color: lightblue;
+}

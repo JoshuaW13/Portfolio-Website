@@ -14,7 +14,7 @@ p{
 
 .middle{
     background-color: #f8f8ff;
-    min-height: calc(100vh - 200px); 
+    min-height: calc(100vh - 100px); 
     padding-top: 20px;
     margin: 0px;
     padding-bottom: 20px;

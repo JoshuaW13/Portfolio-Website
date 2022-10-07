@@ -136,11 +136,12 @@ a{
 img{
     width: 100%;
     height: auto;
-    border-radius: 95px;
+    
 }
 
 #align img{
     vertical-align: middle;
+    border-radius: 95px;
 }
 
 body{

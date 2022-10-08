@@ -50,9 +50,32 @@ p{
     margin-left: -30px;
     margin-top: -30px;
     margin-right: -30px;
+    padding-left: 15px;
     width: auto;
     height: 25px;
     background-color: rgb(196, 196, 196);
+}
+
+.windowButton{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    border-width: 2px;
+    border: solid silver;
+}
+
+.redButton{
+    background-color: red;
+}
+
+.yellowButton{
+    background-color: yellow;
+}
+
+.greenButton{
+    background-color: #0BDA51;
 }
 
 .codeCursor{

@@ -127,7 +127,7 @@ a{
 }
 
 .profileImage{
-    width: 200px;
+    width: 150px;
     height: auto;
     border-radius: 95px;
     margin: 0 auto;
@@ -145,7 +145,6 @@ a{
     padding-bottom: 20px;
     width: 80%;
     background-color: #c4c3d0;
-    text-align: center;
 }
 
 .aboutMe{

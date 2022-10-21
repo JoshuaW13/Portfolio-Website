@@ -127,7 +127,8 @@ a{
 }
 
 .profileImage{
-    width: 150px;
+    width: 200px;
+    flex-grow: 0.1;
     height: auto;
     border-radius: 95px;
     margin: 0 auto;
@@ -144,6 +145,7 @@ a{
     padding-top: 20px;
     padding-bottom: 20px;
     width: 80%;
+    height: auto;
     background-color: #c4c3d0;
     border-radius: 5px;
 }

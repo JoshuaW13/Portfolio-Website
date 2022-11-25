@@ -24,14 +24,14 @@
 }
 
 .projectgridItem{
+    margin: 10px;
     display: flex;
-    max-height:100vh;
     justify-content: center;
     align-items: center;
 }
 
 .projectContainer{
-    max-width: 80%;
+    max-width: 100%;
     background-color: #c4c3d0;
     margin-top:  30px; ;
     padding: 20px;
